@@ -95,5 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/etc/firmware/tegra11x/nvhost_tsec.fw:system/etc/firmware/tegra11x/nvhost_tsec.fw \
     vendor/google/molly/proprietary/lib/hw/keystore.molly.so:system/lib/hw/keystore.molly.so \
     vendor/google/molly/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
+    vendor/google/molly/proprietary/lib/libled_service_jni.so:system/lib/libled_service_jni.so \
+    vendor/google/molly/proprietary/lib/libtungsten_led.so:system/lib/libtungsten_led.so \
     vendor/google/molly/proprietary/vendor/lib/hw/power.molly.so:system/vendor/lib/hw/power.molly.so \
     vendor/google/molly/proprietary/bin/tf_daemon:system/bin/tf_daemon
