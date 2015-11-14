@@ -96,8 +96,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/lib/libtungsten_led.so:system/lib/libtungsten_led.so \
     vendor/google/molly/proprietary/priv-app/AtvRemoteService/AtvRemoteService.apk:system/priv-app/AtvRemoteService/AtvRemoteService.apk \
     vendor/google/molly/proprietary/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so:system/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so \
-    vendor/google/molly/proprietary/priv-app/GamepadPairingService/GamepadPairingService.apk:system/priv-app/GamepadPairingService/GamepadPairingService.apk \
     vendor/google/molly/proprietary/priv-app/GlobalKeyInterceptor/GlobalKeyInterceptor.apk:system/priv-app/GlobalKeyInterceptor/GlobalKeyInterceptor.apk \
+    vendor/google/molly/proprietary/priv-app/LeanbackLauncher/LeanbackLauncher.apk:system/priv-app/LeanbackLauncher/LeanbackLauncher.apk \
+    vendor/google/molly/proprietary/priv-app/RemoteControlService/RemoteControlService.apk:system/priv-app/RemoteControlService/RemoteControlService.apk \
+    vendor/google/molly/proprietary/priv-app/TV/TV.apk:system/priv-app/TV/TV.apk \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/sd8797_uapsta.bin:system/vendor/firmware/mrvl/sd8797_uapsta.bin \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/txpower_JP.bin:system/vendor/firmware/mrvl/txpower_JP.bin \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/txpower_US.bin:system/vendor/firmware/mrvl/txpower_US.bin \
