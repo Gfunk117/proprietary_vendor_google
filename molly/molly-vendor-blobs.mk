@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,6 +27,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/google/molly/proprietary/etc/firmware/tegra11x/nvhost_msenc02.fw:system/etc/firmware/tegra11x/nvhost_msenc02.fw \
     vendor/google/molly/proprietary/etc/firmware/tegra11x/nvhost_tsec.fw:system/etc/firmware/tegra11x/nvhost_tsec.fw \
+    vendor/google/molly/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    vendor/google/molly/proprietary/etc/permissions/nrdp.xml:system/etc/permissions/nrdp.xml \
+    vendor/google/molly/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+    vendor/google/molly/proprietary/lib/crtbegin_so.o:system/lib/crtbegin_so.o \
+    vendor/google/molly/proprietary/lib/crtend_so.o:system/lib/crtend_so.o \
     vendor/google/molly/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/google/molly/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/google/molly/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
@@ -34,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/lib/hw/hdmi_cec.tegra4.so:system/lib/hw/hdmi_cec.tegra4.so \
     vendor/google/molly/proprietary/lib/hw/hwcomposer.tegra4.so:system/lib/hw/hwcomposer.tegra4.so \
     vendor/google/molly/proprietary/lib/hw/keystore.molly.so:system/lib/hw/keystore.molly.so \
+    vendor/google/molly/proprietary/lib/hw/tv_input.default.so:system/lib/hw/tv_input.default.so \
     vendor/google/molly/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/google/molly/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/google/molly/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
@@ -88,6 +94,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/google/molly/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
     vendor/google/molly/proprietary/lib/libtungsten_led.so:system/lib/libtungsten_led.so \
+    vendor/google/molly/proprietary/priv-app/AtvRemoteService/AtvRemoteService.apk:system/priv-app/AtvRemoteService/AtvRemoteService.apk \
+    vendor/google/molly/proprietary/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so:system/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so \
+    vendor/google/molly/proprietary/priv-app/GamepadPairingService/GamepadPairingService.apk:system/priv-app/GamepadPairingService/GamepadPairingService.apk \
+    vendor/google/molly/proprietary/priv-app/GlobalKeyInterceptor/GlobalKeyInterceptor.apk:system/priv-app/GlobalKeyInterceptor/GlobalKeyInterceptor.apk \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/sd8797_uapsta.bin:system/vendor/firmware/mrvl/sd8797_uapsta.bin \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/txpower_JP.bin:system/vendor/firmware/mrvl/txpower_JP.bin \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/txpower_US.bin:system/vendor/firmware/mrvl/txpower_US.bin \
@@ -97,9 +107,4 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/google/molly/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/google/molly/proprietary/vendor/lib/mediadrm/libDxModularPluginNv.so:system/vendor/lib/mediadrm/libDxModularPluginNv.so \
-    vendor/google/molly/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/google/molly/proprietary/priv-app/AtvRemoteService/AtvRemoteService.apk:system/priv-app/AtvRemoteService/AtvRemoteService.apk \
-    vendor/google/molly/proprietary/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so:system/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so \
-    vendor/google/molly/proprietary/priv-app/GamepadPairingService/GamepadPairingService.apk:system/priv-app/GamepadPairingService/AtGamepadPairingService.apk \
-    vendor/google/molly/proprietary/priv-app/GlobalKeyInterceptor/GlobalKeyInterceptor.apk:system/priv-app/GlobalKeyInterceptor/GlobalKeyInterceptor.apk
-
+    vendor/google/molly/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
