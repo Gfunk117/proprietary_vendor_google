@@ -29,7 +29,6 @@ PRODUCT_PACKAGES += \
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
     AtvRemoteService \
-    GamepadPairingService \
     GlobalKeyInterceptor \
     LeanbackLauncher \
     RemoteControlService \
