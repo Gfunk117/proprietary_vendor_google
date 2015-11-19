@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ $(call inherit-product, vendor/google/molly/molly-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     LeanbackIme \
-    TungstenLEDService 
+    TungstenLEDService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
