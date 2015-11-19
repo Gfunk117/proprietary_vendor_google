@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/bin/nvcgcserver:system/bin/nvcgcserver \
     vendor/google/molly/proprietary/etc/DxDrmConfig.txt:system/etc/DxDrmConfig.txt \
     vendor/google/molly/proprietary/etc/enctune.conf:system/etc/enctune.conf \
+    vendor/google/molly/proprietary/app/TungstenLEDService/lib/arm/libled_service_jni.so:system/app/TungstenLEDService/lib/arm/libled_service_jni.so \
     vendor/google/molly/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
     vendor/google/molly/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/google/molly/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
